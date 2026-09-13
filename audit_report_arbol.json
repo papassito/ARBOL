@@ -1,0 +1,373 @@
+﻿{
+    "Timestamp":  "2026-09-12T06:47:39.1090102-07:00",
+    "Status":  "PASS_WITH_WARNINGS",
+    "Metrics":  {
+                    "TotalFiles":  6096,
+                    "MdFiles":  267,
+                    "PassedChecks":  10,
+                    "HighErrors":  0,
+                    "Warnings":  40
+                },
+    "Findings":  [
+                     {
+                         "Code":  "ARBOL-BOM-001",
+                         "Category":  "UTF8_BOM",
+                         "Description":  "Archivo con marca BOM UTF-8.",
+                         "Severity":  "LOW",
+                         "EvidenceScope":  "C:\\Users\\CMSoluciones\\Documents\\ARBOL\\audit_arbol_v3.ps1",
+                         "Evidence":  "",
+                         "Timestamp":  "2026-09-12T06:47:29.9273036-07:00"
+                     },
+                     {
+                         "Code":  "ARBOL-BOM-001",
+                         "Category":  "UTF8_BOM",
+                         "Description":  "Archivo con marca BOM UTF-8.",
+                         "Severity":  "LOW",
+                         "EvidenceScope":  "C:\\Users\\CMSoluciones\\Documents\\ARBOL\\audit_report_arbol.json",
+                         "Evidence":  "",
+                         "Timestamp":  "2026-09-12T06:47:29.9378804-07:00"
+                     },
+                     {
+                         "Code":  "ARBOL-BOM-001",
+                         "Category":  "UTF8_BOM",
+                         "Description":  "Archivo con marca BOM UTF-8.",
+                         "Severity":  "LOW",
+                         "EvidenceScope":  "C:\\Users\\CMSoluciones\\Documents\\ARBOL\\audit_report_ultra.json",
+                         "Evidence":  "",
+                         "Timestamp":  "2026-09-12T06:47:29.9444101-07:00"
+                     },
+                     {
+                         "Code":  "ARBOL-BOM-001",
+                         "Category":  "UTF8_BOM",
+                         "Description":  "Archivo con marca BOM UTF-8.",
+                         "Severity":  "LOW",
+                         "EvidenceScope":  "C:\\Users\\CMSoluciones\\Documents\\ARBOL\\CHANGELOG.md",
+                         "Evidence":  "",
+                         "Timestamp":  "2026-09-12T06:47:29.9494435-07:00"
+                     },
+                     {
+                         "Code":  "ARBOL-FILE-EMPTY",
+                         "Category":  "EMPTY_FILE",
+                         "Description":  "Archivo de longitud cero detectado.",
+                         "Severity":  "MEDIUM",
+                         "EvidenceScope":  "C:\\Users\\CMSoluciones\\Documents\\ARBOL\\.node\\node-v22.12.0-win-x64\\node_modules\\npm\\.npmrc",
+                         "Evidence":  "",
+                         "Timestamp":  "2026-09-12T06:47:30.0769772-07:00"
+                     },
+                     {
+                         "Code":  "ARBOL-FILE-EMPTY",
+                         "Category":  "EMPTY_FILE",
+                         "Description":  "Archivo de longitud cero detectado.",
+                         "Severity":  "MEDIUM",
+                         "EvidenceScope":  "C:\\Users\\CMSoluciones\\Documents\\ARBOL\\.node\\node-v22.12.0-win-x64\\node_modules\\npm\\node_modules\\node-gyp\\gyp\\pylib\\gyp\\generator\\__init__.py",
+                         "Evidence":  "",
+                         "Timestamp":  "2026-09-12T06:47:30.1669427-07:00"
+                     },
+                     {
+                         "Code":  "ARBOL-FILE-EMPTY",
+                         "Category":  "EMPTY_FILE",
+                         "Description":  "Archivo de longitud cero detectado.",
+                         "Severity":  "MEDIUM",
+                         "EvidenceScope":  "C:\\Users\\CMSoluciones\\Documents\\ARBOL\\.node\\node-v22.12.0-win-x64\\node_modules\\npm\\node_modules\\node-gyp\\gyp\\pylib\\packaging\\py.typed",
+                         "Evidence":  "",
+                         "Timestamp":  "2026-09-12T06:47:30.1695977-07:00"
+                     },
+                     {
+                         "Code":  "ARBOL-FILE-EMPTY",
+                         "Category":  "EMPTY_FILE",
+                         "Description":  "Archivo de longitud cero detectado.",
+                         "Severity":  "MEDIUM",
+                         "EvidenceScope":  "C:\\Users\\CMSoluciones\\Documents\\ARBOL\\.node\\node-v22.12.0-win-x64\\node_modules\\npm\\node_modules\\smart-buffer\\docs\\ROADMAP.md",
+                         "Evidence":  "",
+                         "Timestamp":  "2026-09-12T06:47:30.2031011-07:00"
+                     },
+                     {
+                         "Code":  "ARBOL-FILE-EMPTY",
+                         "Category":  "EMPTY_FILE",
+                         "Description":  "Archivo de longitud cero detectado.",
+                         "Severity":  "MEDIUM",
+                         "EvidenceScope":  "C:\\Users\\CMSoluciones\\Documents\\ARBOL\\.npm-cache\\_update-notifier-last-checked",
+                         "Evidence":  "",
+                         "Timestamp":  "2026-09-12T06:47:38.1283039-07:00"
+                     },
+                     {
+                         "Code":  "ARBOL-BOM-001",
+                         "Category":  "UTF8_BOM",
+                         "Description":  "Archivo con marca BOM UTF-8.",
+                         "Severity":  "LOW",
+                         "EvidenceScope":  "C:\\Users\\CMSoluciones\\Documents\\ARBOL\\docs\\AI.md",
+                         "Evidence":  "",
+                         "Timestamp":  "2026-09-12T06:47:38.5892858-07:00"
+                     },
+                     {
+                         "Code":  "ARBOL-BOM-001",
+                         "Category":  "UTF8_BOM",
+                         "Description":  "Archivo con marca BOM UTF-8.",
+                         "Severity":  "LOW",
+                         "EvidenceScope":  "C:\\Users\\CMSoluciones\\Documents\\ARBOL\\docs\\API.md",
+                         "Evidence":  "",
+                         "Timestamp":  "2026-09-12T06:47:38.5942857-07:00"
+                     },
+                     {
+                         "Code":  "ARBOL-BOM-001",
+                         "Category":  "UTF8_BOM",
+                         "Description":  "Archivo con marca BOM UTF-8.",
+                         "Severity":  "LOW",
+                         "EvidenceScope":  "C:\\Users\\CMSoluciones\\Documents\\ARBOL\\docs\\ARCHITECTURE.md",
+                         "Evidence":  "",
+                         "Timestamp":  "2026-09-12T06:47:38.6008487-07:00"
+                     },
+                     {
+                         "Code":  "ARBOL-BOM-001",
+                         "Category":  "UTF8_BOM",
+                         "Description":  "Archivo con marca BOM UTF-8.",
+                         "Severity":  "LOW",
+                         "EvidenceScope":  "C:\\Users\\CMSoluciones\\Documents\\ARBOL\\docs\\AUDIT.md",
+                         "Evidence":  "",
+                         "Timestamp":  "2026-09-12T06:47:38.6048488-07:00"
+                     },
+                     {
+                         "Code":  "ARBOL-BOM-001",
+                         "Category":  "UTF8_BOM",
+                         "Description":  "Archivo con marca BOM UTF-8.",
+                         "Severity":  "LOW",
+                         "EvidenceScope":  "C:\\Users\\CMSoluciones\\Documents\\ARBOL\\docs\\CONTRACTS.md",
+                         "Evidence":  "",
+                         "Timestamp":  "2026-09-12T06:47:38.6154044-07:00"
+                     },
+                     {
+                         "Code":  "ARBOL-BOM-001",
+                         "Category":  "UTF8_BOM",
+                         "Description":  "Archivo con marca BOM UTF-8.",
+                         "Severity":  "LOW",
+                         "EvidenceScope":  "C:\\Users\\CMSoluciones\\Documents\\ARBOL\\docs\\DATABASE.md",
+                         "Evidence":  "",
+                         "Timestamp":  "2026-09-12T06:47:38.6219648-07:00"
+                     },
+                     {
+                         "Code":  "ARBOL-BOM-001",
+                         "Category":  "UTF8_BOM",
+                         "Description":  "Archivo con marca BOM UTF-8.",
+                         "Severity":  "LOW",
+                         "EvidenceScope":  "C:\\Users\\CMSoluciones\\Documents\\ARBOL\\docs\\DOCUMENTS.md",
+                         "Evidence":  "",
+                         "Timestamp":  "2026-09-12T06:47:38.6314880-07:00"
+                     },
+                     {
+                         "Code":  "ARBOL-BOM-001",
+                         "Category":  "UTF8_BOM",
+                         "Description":  "Archivo con marca BOM UTF-8.",
+                         "Severity":  "LOW",
+                         "EvidenceScope":  "C:\\Users\\CMSoluciones\\Documents\\ARBOL\\docs\\EVIDENCE.md",
+                         "Evidence":  "",
+                         "Timestamp":  "2026-09-12T06:47:38.6355029-07:00"
+                     },
+                     {
+                         "Code":  "ARBOL-BOM-001",
+                         "Category":  "UTF8_BOM",
+                         "Description":  "Archivo con marca BOM UTF-8.",
+                         "Severity":  "LOW",
+                         "EvidenceScope":  "C:\\Users\\CMSoluciones\\Documents\\ARBOL\\docs\\GOVERNANCE.md",
+                         "Evidence":  "",
+                         "Timestamp":  "2026-09-12T06:47:38.6467380-07:00"
+                     },
+                     {
+                         "Code":  "ARBOL-BOM-001",
+                         "Category":  "UTF8_BOM",
+                         "Description":  "Archivo con marca BOM UTF-8.",
+                         "Severity":  "LOW",
+                         "EvidenceScope":  "C:\\Users\\CMSoluciones\\Documents\\ARBOL\\docs\\IDENTITY.md",
+                         "Evidence":  "",
+                         "Timestamp":  "2026-09-12T06:47:38.6608139-07:00"
+                     },
+                     {
+                         "Code":  "ARBOL-BOM-001",
+                         "Category":  "UTF8_BOM",
+                         "Description":  "Archivo con marca BOM UTF-8.",
+                         "Severity":  "LOW",
+                         "EvidenceScope":  "C:\\Users\\CMSoluciones\\Documents\\ARBOL\\docs\\IMPORT_EXPORT.md",
+                         "Evidence":  "",
+                         "Timestamp":  "2026-09-12T06:47:38.6658279-07:00"
+                     },
+                     {
+                         "Code":  "ARBOL-BOM-001",
+                         "Category":  "UTF8_BOM",
+                         "Description":  "Archivo con marca BOM UTF-8.",
+                         "Severity":  "LOW",
+                         "EvidenceScope":  "C:\\Users\\CMSoluciones\\Documents\\ARBOL\\docs\\MAP.md",
+                         "Evidence":  "",
+                         "Timestamp":  "2026-09-12T06:47:38.6795113-07:00"
+                     },
+                     {
+                         "Code":  "ARBOL-BOM-001",
+                         "Category":  "UTF8_BOM",
+                         "Description":  "Archivo con marca BOM UTF-8.",
+                         "Severity":  "LOW",
+                         "EvidenceScope":  "C:\\Users\\CMSoluciones\\Documents\\ARBOL\\docs\\MATCHING.md",
+                         "Evidence":  "",
+                         "Timestamp":  "2026-09-12T06:47:38.6850736-07:00"
+                     },
+                     {
+                         "Code":  "ARBOL-FILE-EMPTY",
+                         "Category":  "EMPTY_FILE",
+                         "Description":  "Archivo de longitud cero detectado.",
+                         "Severity":  "MEDIUM",
+                         "EvidenceScope":  "C:\\Users\\CMSoluciones\\Documents\\ARBOL\\docs\\minuta.md",
+                         "Evidence":  "",
+                         "Timestamp":  "2026-09-12T06:47:38.6860742-07:00"
+                     },
+                     {
+                         "Code":  "ARBOL-BOM-001",
+                         "Category":  "UTF8_BOM",
+                         "Description":  "Archivo con marca BOM UTF-8.",
+                         "Severity":  "LOW",
+                         "EvidenceScope":  "C:\\Users\\CMSoluciones\\Documents\\ARBOL\\docs\\PHOTO.md",
+                         "Evidence":  "",
+                         "Timestamp":  "2026-09-12T06:47:38.6925895-07:00"
+                     },
+                     {
+                         "Code":  "ARBOL-BOM-001",
+                         "Category":  "UTF8_BOM",
+                         "Description":  "Archivo con marca BOM UTF-8.",
+                         "Severity":  "LOW",
+                         "EvidenceScope":  "C:\\Users\\CMSoluciones\\Documents\\ARBOL\\docs\\PRIVACY.md",
+                         "Evidence":  "",
+                         "Timestamp":  "2026-09-12T06:47:38.6985927-07:00"
+                     },
+                     {
+                         "Code":  "ARBOL-BOM-001",
+                         "Category":  "UTF8_BOM",
+                         "Description":  "Archivo con marca BOM UTF-8.",
+                         "Severity":  "LOW",
+                         "EvidenceScope":  "C:\\Users\\CMSoluciones\\Documents\\ARBOL\\docs\\PROVENANCE.md",
+                         "Evidence":  "",
+                         "Timestamp":  "2026-09-12T06:47:38.7036046-07:00"
+                     },
+                     {
+                         "Code":  "ARBOL-BOM-001",
+                         "Category":  "UTF8_BOM",
+                         "Description":  "Archivo con marca BOM UTF-8.",
+                         "Severity":  "LOW",
+                         "EvidenceScope":  "C:\\Users\\CMSoluciones\\Documents\\ARBOL\\docs\\RELATIONSHIPS.md",
+                         "Evidence":  "",
+                         "Timestamp":  "2026-09-12T06:47:38.7085903-07:00"
+                     },
+                     {
+                         "Code":  "ARBOL-BOM-001",
+                         "Category":  "UTF8_BOM",
+                         "Description":  "Archivo con marca BOM UTF-8.",
+                         "Severity":  "LOW",
+                         "EvidenceScope":  "C:\\Users\\CMSoluciones\\Documents\\ARBOL\\docs\\ROADMAP.md",
+                         "Evidence":  "",
+                         "Timestamp":  "2026-09-12T06:47:38.7191260-07:00"
+                     },
+                     {
+                         "Code":  "ARBOL-BOM-001",
+                         "Category":  "UTF8_BOM",
+                         "Description":  "Archivo con marca BOM UTF-8.",
+                         "Severity":  "LOW",
+                         "EvidenceScope":  "C:\\Users\\CMSoluciones\\Documents\\ARBOL\\docs\\SEARCH.md",
+                         "Evidence":  "",
+                         "Timestamp":  "2026-09-12T06:47:38.7256615-07:00"
+                     },
+                     {
+                         "Code":  "ARBOL-BOM-001",
+                         "Category":  "UTF8_BOM",
+                         "Description":  "Archivo con marca BOM UTF-8.",
+                         "Severity":  "LOW",
+                         "EvidenceScope":  "C:\\Users\\CMSoluciones\\Documents\\ARBOL\\docs\\SECURITY.md",
+                         "Evidence":  "",
+                         "Timestamp":  "2026-09-12T06:47:38.7306704-07:00"
+                     },
+                     {
+                         "Code":  "ARBOL-BOM-001",
+                         "Category":  "UTF8_BOM",
+                         "Description":  "Archivo con marca BOM UTF-8.",
+                         "Severity":  "LOW",
+                         "EvidenceScope":  "C:\\Users\\CMSoluciones\\Documents\\ARBOL\\docs\\SOURCES.md",
+                         "Evidence":  "",
+                         "Timestamp":  "2026-09-12T06:47:38.7367174-07:00"
+                     },
+                     {
+                         "Code":  "ARBOL-BOM-001",
+                         "Category":  "UTF8_BOM",
+                         "Description":  "Archivo con marca BOM UTF-8.",
+                         "Severity":  "LOW",
+                         "EvidenceScope":  "C:\\Users\\CMSoluciones\\Documents\\ARBOL\\docs\\UI.md",
+                         "Evidence":  "",
+                         "Timestamp":  "2026-09-12T06:47:38.7407063-07:00"
+                     },
+                     {
+                         "Code":  "ARBOL-FILE-EMPTY",
+                         "Category":  "EMPTY_FILE",
+                         "Description":  "Archivo de longitud cero detectado.",
+                         "Severity":  "MEDIUM",
+                         "EvidenceScope":  "C:\\Users\\CMSoluciones\\Documents\\ARBOL\\node_modules\\napi-build-utils\\index.md",
+                         "Evidence":  "",
+                         "Timestamp":  "2026-09-12T06:47:38.7991469-07:00"
+                     },
+                     {
+                         "Code":  "ARBOL-FILE-EMPTY",
+                         "Category":  "EMPTY_FILE",
+                         "Description":  "Archivo de longitud cero detectado.",
+                         "Severity":  "MEDIUM",
+                         "EvidenceScope":  "C:\\Users\\CMSoluciones\\Documents\\ARBOL\\node_modules\\tar-fs\\test\\fixtures\\d\\file1",
+                         "Evidence":  "",
+                         "Timestamp":  "2026-09-12T06:47:38.8102195-07:00"
+                     },
+                     {
+                         "Code":  "ARBOL-FILE-EMPTY",
+                         "Category":  "EMPTY_FILE",
+                         "Description":  "Archivo de longitud cero detectado.",
+                         "Severity":  "MEDIUM",
+                         "EvidenceScope":  "C:\\Users\\CMSoluciones\\Documents\\ARBOL\\node_modules\\tar-fs\\test\\fixtures\\d\\file2",
+                         "Evidence":  "",
+                         "Timestamp":  "2026-09-12T06:47:38.8141942-07:00"
+                     },
+                     {
+                         "Code":  "ARBOL-FILE-EMPTY",
+                         "Category":  "EMPTY_FILE",
+                         "Description":  "Archivo de longitud cero detectado.",
+                         "Severity":  "MEDIUM",
+                         "EvidenceScope":  "C:\\Users\\CMSoluciones\\Documents\\ARBOL\\node_modules\\tar-fs\\test\\fixtures\\d\\sub-dir\\file5",
+                         "Evidence":  "",
+                         "Timestamp":  "2026-09-12T06:47:38.8181937-07:00"
+                     },
+                     {
+                         "Code":  "ARBOL-FILE-EMPTY",
+                         "Category":  "EMPTY_FILE",
+                         "Description":  "Archivo de longitud cero detectado.",
+                         "Severity":  "MEDIUM",
+                         "EvidenceScope":  "C:\\Users\\CMSoluciones\\Documents\\ARBOL\\node_modules\\tar-fs\\test\\fixtures\\d\\sub-files\\file3",
+                         "Evidence":  "",
+                         "Timestamp":  "2026-09-12T06:47:38.8207293-07:00"
+                     },
+                     {
+                         "Code":  "ARBOL-FILE-EMPTY",
+                         "Category":  "EMPTY_FILE",
+                         "Description":  "Archivo de longitud cero detectado.",
+                         "Severity":  "MEDIUM",
+                         "EvidenceScope":  "C:\\Users\\CMSoluciones\\Documents\\ARBOL\\node_modules\\tar-fs\\test\\fixtures\\d\\sub-files\\file4",
+                         "Evidence":  "",
+                         "Timestamp":  "2026-09-12T06:47:38.8252708-07:00"
+                     },
+                     {
+                         "Code":  "ARBOL-FILE-EMPTY",
+                         "Category":  "EMPTY_FILE",
+                         "Description":  "Archivo de longitud cero detectado.",
+                         "Severity":  "MEDIUM",
+                         "EvidenceScope":  "C:\\Users\\CMSoluciones\\Documents\\ARBOL\\node_modules\\tar-fs\\test\\fixtures\\e\\file",
+                         "Evidence":  "",
+                         "Timestamp":  "2026-09-12T06:47:38.8272631-07:00"
+                     },
+                     {
+                         "Code":  "ARBOL-FILE-EMPTY",
+                         "Category":  "EMPTY_FILE",
+                         "Description":  "Archivo de longitud cero detectado.",
+                         "Severity":  "MEDIUM",
+                         "EvidenceScope":  "C:\\Users\\CMSoluciones\\Documents\\ARBOL\\node_modules\\tar-fs\\test\\fixtures\\e\\directory\\.ignore",
+                         "Evidence":  "",
+                         "Timestamp":  "2026-09-12T06:47:38.8302628-07:00"
+                     }
+                 ]
+}

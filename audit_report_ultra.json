@@ -1,0 +1,432 @@
+﻿{
+    "Timestamp":  "2026-09-11T16:27:33.8872906-07:00",
+    "Status":  "FAIL",
+    "Scope":  {
+                  "RepositoryRoot":  "C:\\Users\\CMSoluciones\\Documents\\ARBOL",
+                  "RequireBaselineAtRoot":  true,
+                  "Statement":  "Los hallazgos se limitan al alcance inspeccionado. NOT_DETECTED no implica inexistencia global."
+              },
+    "Metrics":  {
+                    "TotalFilesScanned":  46,
+                    "GoFilesScanned":  3,
+                    "TotalLinesOfCode":  0,
+                    "PassedChecks":  7,
+                    "Informational":  1,
+                    "Warnings":  31,
+                    "HighErrors":  13,
+                    "CriticalErrors":  0,
+                    "BlockingFindings":  13
+                },
+    "ExecutionGate":  {
+                          "GoBuild":  false,
+                          "GoTest":  false,
+                          "GoVet":  false
+                      },
+    "Findings":  [
+                     {
+                         "Code":  "MITOTE-GIT-002",
+                         "Category":  "GIT_NOT_DETECTED",
+                         "Description":  "La ruta inspeccionada no fue identificada como working tree Git.",
+                         "Severity":  "INFO",
+                         "EvidenceScope":  "C:\\Users\\CMSoluciones\\Documents\\ARBOL",
+                         "Evidence":  "",
+                         "Timestamp":  "2026-09-11T16:27:33.3380630-07:00"
+                     },
+                     {
+                         "Code":  "RXD-ENTRY-001",
+                         "Category":  "ENTRYPOINT_NOT_DETECTED",
+                         "Description":  "No se encontró el entrypoint esperado cmd/audit/main.go en la ruta exacta inspeccionada.",
+                         "Severity":  "HIGH",
+                         "EvidenceScope":  "cmd/audit/main.go",
+                         "Evidence":  "",
+                         "Timestamp":  "2026-09-11T16:27:33.3656998-07:00"
+                     },
+                     {
+                         "Code":  "RXD-ENTRY-001",
+                         "Category":  "ENTRYPOINT_NOT_DETECTED",
+                         "Description":  "No se encontró el entrypoint esperado cmd/delivery/main.go en la ruta exacta inspeccionada.",
+                         "Severity":  "HIGH",
+                         "EvidenceScope":  "cmd/delivery/main.go",
+                         "Evidence":  "",
+                         "Timestamp":  "2026-09-11T16:27:33.3687180-07:00"
+                     },
+                     {
+                         "Code":  "RXD-ENTRY-001",
+                         "Category":  "ENTRYPOINT_NOT_DETECTED",
+                         "Description":  "No se encontró el entrypoint esperado cmd/gateway/main.go en la ruta exacta inspeccionada.",
+                         "Severity":  "HIGH",
+                         "EvidenceScope":  "cmd/gateway/main.go",
+                         "Evidence":  "",
+                         "Timestamp":  "2026-09-11T16:27:33.3717146-07:00"
+                     },
+                     {
+                         "Code":  "RXD-ENTRY-001",
+                         "Category":  "ENTRYPOINT_NOT_DETECTED",
+                         "Description":  "No se encontró el entrypoint esperado cmd/image/main.go en la ruta exacta inspeccionada.",
+                         "Severity":  "HIGH",
+                         "EvidenceScope":  "cmd/image/main.go",
+                         "Evidence":  "",
+                         "Timestamp":  "2026-09-11T16:27:33.3737092-07:00"
+                     },
+                     {
+                         "Code":  "RXD-ENTRY-001",
+                         "Category":  "ENTRYPOINT_NOT_DETECTED",
+                         "Description":  "No se encontró el entrypoint esperado cmd/reader/main.go en la ruta exacta inspeccionada.",
+                         "Severity":  "HIGH",
+                         "EvidenceScope":  "cmd/reader/main.go",
+                         "Evidence":  "",
+                         "Timestamp":  "2026-09-11T16:27:33.3757063-07:00"
+                     },
+                     {
+                         "Code":  "RXD-ENTRY-001",
+                         "Category":  "ENTRYPOINT_NOT_DETECTED",
+                         "Description":  "No se encontró el entrypoint esperado cmd/result/main.go en la ruta exacta inspeccionada.",
+                         "Severity":  "HIGH",
+                         "EvidenceScope":  "cmd/result/main.go",
+                         "Evidence":  "",
+                         "Timestamp":  "2026-09-11T16:27:33.3777106-07:00"
+                     },
+                     {
+                         "Code":  "RXD-ENTRY-001",
+                         "Category":  "ENTRYPOINT_NOT_DETECTED",
+                         "Description":  "No se encontró el entrypoint esperado cmd/security/main.go en la ruta exacta inspeccionada.",
+                         "Severity":  "HIGH",
+                         "EvidenceScope":  "cmd/security/main.go",
+                         "Evidence":  "",
+                         "Timestamp":  "2026-09-11T16:27:33.3797055-07:00"
+                     },
+                     {
+                         "Code":  "RXD-ENTRY-001",
+                         "Category":  "ENTRYPOINT_NOT_DETECTED",
+                         "Description":  "No se encontró el entrypoint esperado cmd/storage/main.go en la ruta exacta inspeccionada.",
+                         "Severity":  "HIGH",
+                         "EvidenceScope":  "cmd/storage/main.go",
+                         "Evidence":  "",
+                         "Timestamp":  "2026-09-11T16:27:33.3817091-07:00"
+                     },
+                     {
+                         "Code":  "RXD-ENTRY-001",
+                         "Category":  "ENTRYPOINT_NOT_DETECTED",
+                         "Description":  "No se encontró el entrypoint esperado cmd/study/main.go en la ruta exacta inspeccionada.",
+                         "Severity":  "HIGH",
+                         "EvidenceScope":  "cmd/study/main.go",
+                         "Evidence":  "",
+                         "Timestamp":  "2026-09-11T16:27:33.3847051-07:00"
+                     },
+                     {
+                         "Code":  "MITOTE-BOM-001",
+                         "Category":  "UTF8_BOM_DETECTED",
+                         "Description":  "Archivo UTF-8 con BOM detectado. Se reporta como característica de codificación, no como corrupción.",
+                         "Severity":  "LOW",
+                         "EvidenceScope":  "filesystem",
+                         "Evidence":  "C:\\Users\\CMSoluciones\\Documents\\ARBOL\\AI.md",
+                         "Timestamp":  "2026-09-11T16:27:33.3927292-07:00"
+                     },
+                     {
+                         "Code":  "MITOTE-BOM-001",
+                         "Category":  "UTF8_BOM_DETECTED",
+                         "Description":  "Archivo UTF-8 con BOM detectado. Se reporta como característica de codificación, no como corrupción.",
+                         "Severity":  "LOW",
+                         "EvidenceScope":  "filesystem",
+                         "Evidence":  "C:\\Users\\CMSoluciones\\Documents\\ARBOL\\API.md",
+                         "Timestamp":  "2026-09-11T16:27:33.3927292-07:00"
+                     },
+                     {
+                         "Code":  "MITOTE-BOM-001",
+                         "Category":  "UTF8_BOM_DETECTED",
+                         "Description":  "Archivo UTF-8 con BOM detectado. Se reporta como característica de codificación, no como corrupción.",
+                         "Severity":  "LOW",
+                         "EvidenceScope":  "filesystem",
+                         "Evidence":  "C:\\Users\\CMSoluciones\\Documents\\ARBOL\\ARCHITECTURE.md",
+                         "Timestamp":  "2026-09-11T16:27:33.3927292-07:00"
+                     },
+                     {
+                         "Code":  "MITOTE-BOM-001",
+                         "Category":  "UTF8_BOM_DETECTED",
+                         "Description":  "Archivo UTF-8 con BOM detectado. Se reporta como característica de codificación, no como corrupción.",
+                         "Severity":  "LOW",
+                         "EvidenceScope":  "filesystem",
+                         "Evidence":  "C:\\Users\\CMSoluciones\\Documents\\ARBOL\\AUDIT.md",
+                         "Timestamp":  "2026-09-11T16:27:33.3937251-07:00"
+                     },
+                     {
+                         "Code":  "MITOTE-BOM-001",
+                         "Category":  "UTF8_BOM_DETECTED",
+                         "Description":  "Archivo UTF-8 con BOM detectado. Se reporta como característica de codificación, no como corrupción.",
+                         "Severity":  "LOW",
+                         "EvidenceScope":  "filesystem",
+                         "Evidence":  "C:\\Users\\CMSoluciones\\Documents\\ARBOL\\audit_report_ultra.json",
+                         "Timestamp":  "2026-09-11T16:27:33.3937251-07:00"
+                     },
+                     {
+                         "Code":  "MITOTE-BOM-001",
+                         "Category":  "UTF8_BOM_DETECTED",
+                         "Description":  "Archivo UTF-8 con BOM detectado. Se reporta como característica de codificación, no como corrupción.",
+                         "Severity":  "LOW",
+                         "EvidenceScope":  "filesystem",
+                         "Evidence":  "C:\\Users\\CMSoluciones\\Documents\\ARBOL\\CHANGELOG.md",
+                         "Timestamp":  "2026-09-11T16:27:33.3937251-07:00"
+                     },
+                     {
+                         "Code":  "MITOTE-BOM-001",
+                         "Category":  "UTF8_BOM_DETECTED",
+                         "Description":  "Archivo UTF-8 con BOM detectado. Se reporta como característica de codificación, no como corrupción.",
+                         "Severity":  "LOW",
+                         "EvidenceScope":  "filesystem",
+                         "Evidence":  "C:\\Users\\CMSoluciones\\Documents\\ARBOL\\CONTRACTS.md",
+                         "Timestamp":  "2026-09-11T16:27:33.3947368-07:00"
+                     },
+                     {
+                         "Code":  "MITOTE-BOM-001",
+                         "Category":  "UTF8_BOM_DETECTED",
+                         "Description":  "Archivo UTF-8 con BOM detectado. Se reporta como característica de codificación, no como corrupción.",
+                         "Severity":  "LOW",
+                         "EvidenceScope":  "filesystem",
+                         "Evidence":  "C:\\Users\\CMSoluciones\\Documents\\ARBOL\\DATABASE.md",
+                         "Timestamp":  "2026-09-11T16:27:33.3947368-07:00"
+                     },
+                     {
+                         "Code":  "MITOTE-FILE-EMPTY-001",
+                         "Category":  "EMPTY_FILE",
+                         "Description":  "Se encontró un archivo de longitud cero. Puede ser intencional; revisar su función antes de eliminarlo.",
+                         "Severity":  "LOW",
+                         "EvidenceScope":  "filesystem",
+                         "Evidence":  "C:\\Users\\CMSoluciones\\Documents\\ARBOL\\deep_audit.ps1",
+                         "Timestamp":  "2026-09-11T16:27:33.3957324-07:00"
+                     },
+                     {
+                         "Code":  "MITOTE-BOM-001",
+                         "Category":  "UTF8_BOM_DETECTED",
+                         "Description":  "Archivo UTF-8 con BOM detectado. Se reporta como característica de codificación, no como corrupción.",
+                         "Severity":  "LOW",
+                         "EvidenceScope":  "filesystem",
+                         "Evidence":  "C:\\Users\\CMSoluciones\\Documents\\ARBOL\\DOCUMENTS.md",
+                         "Timestamp":  "2026-09-11T16:27:33.3957324-07:00"
+                     },
+                     {
+                         "Code":  "MITOTE-BOM-001",
+                         "Category":  "UTF8_BOM_DETECTED",
+                         "Description":  "Archivo UTF-8 con BOM detectado. Se reporta como característica de codificación, no como corrupción.",
+                         "Severity":  "LOW",
+                         "EvidenceScope":  "filesystem",
+                         "Evidence":  "C:\\Users\\CMSoluciones\\Documents\\ARBOL\\EVIDENCE.md",
+                         "Timestamp":  "2026-09-11T16:27:33.3972447-07:00"
+                     },
+                     {
+                         "Code":  "MITOTE-BOM-001",
+                         "Category":  "UTF8_BOM_DETECTED",
+                         "Description":  "Archivo UTF-8 con BOM detectado. Se reporta como característica de codificación, no como corrupción.",
+                         "Severity":  "LOW",
+                         "EvidenceScope":  "filesystem",
+                         "Evidence":  "C:\\Users\\CMSoluciones\\Documents\\ARBOL\\GOVERNANCE.md",
+                         "Timestamp":  "2026-09-11T16:27:33.3972447-07:00"
+                     },
+                     {
+                         "Code":  "MITOTE-BOM-001",
+                         "Category":  "UTF8_BOM_DETECTED",
+                         "Description":  "Archivo UTF-8 con BOM detectado. Se reporta como característica de codificación, no como corrupción.",
+                         "Severity":  "LOW",
+                         "EvidenceScope":  "filesystem",
+                         "Evidence":  "C:\\Users\\CMSoluciones\\Documents\\ARBOL\\IDENTITY.md",
+                         "Timestamp":  "2026-09-11T16:27:33.3982531-07:00"
+                     },
+                     {
+                         "Code":  "MITOTE-BOM-001",
+                         "Category":  "UTF8_BOM_DETECTED",
+                         "Description":  "Archivo UTF-8 con BOM detectado. Se reporta como característica de codificación, no como corrupción.",
+                         "Severity":  "LOW",
+                         "EvidenceScope":  "filesystem",
+                         "Evidence":  "C:\\Users\\CMSoluciones\\Documents\\ARBOL\\IMPORT_EXPORT.md",
+                         "Timestamp":  "2026-09-11T16:27:33.3982531-07:00"
+                     },
+                     {
+                         "Code":  "MITOTE-FILE-EMPTY-001",
+                         "Category":  "EMPTY_FILE",
+                         "Description":  "Se encontró un archivo de longitud cero. Puede ser intencional; revisar su función antes de eliminarlo.",
+                         "Severity":  "LOW",
+                         "EvidenceScope":  "filesystem",
+                         "Evidence":  "C:\\Users\\CMSoluciones\\Documents\\ARBOL\\MAP.md",
+                         "Timestamp":  "2026-09-11T16:27:33.3982531-07:00"
+                     },
+                     {
+                         "Code":  "MITOTE-BOM-001",
+                         "Category":  "UTF8_BOM_DETECTED",
+                         "Description":  "Archivo UTF-8 con BOM detectado. Se reporta como característica de codificación, no como corrupción.",
+                         "Severity":  "LOW",
+                         "EvidenceScope":  "filesystem",
+                         "Evidence":  "C:\\Users\\CMSoluciones\\Documents\\ARBOL\\MATCHING.md",
+                         "Timestamp":  "2026-09-11T16:27:33.3992500-07:00"
+                     },
+                     {
+                         "Code":  "MITOTE-FILE-EMPTY-001",
+                         "Category":  "EMPTY_FILE",
+                         "Description":  "Se encontró un archivo de longitud cero. Puede ser intencional; revisar su función antes de eliminarlo.",
+                         "Severity":  "LOW",
+                         "EvidenceScope":  "filesystem",
+                         "Evidence":  "C:\\Users\\CMSoluciones\\Documents\\ARBOL\\minuta.md",
+                         "Timestamp":  "2026-09-11T16:27:33.3992500-07:00"
+                     },
+                     {
+                         "Code":  "MITOTE-BOM-001",
+                         "Category":  "UTF8_BOM_DETECTED",
+                         "Description":  "Archivo UTF-8 con BOM detectado. Se reporta como característica de codificación, no como corrupción.",
+                         "Severity":  "LOW",
+                         "EvidenceScope":  "filesystem",
+                         "Evidence":  "C:\\Users\\CMSoluciones\\Documents\\ARBOL\\PHOTO.md",
+                         "Timestamp":  "2026-09-11T16:27:33.3992500-07:00"
+                     },
+                     {
+                         "Code":  "MITOTE-FILE-EMPTY-001",
+                         "Category":  "EMPTY_FILE",
+                         "Description":  "Se encontró un archivo de longitud cero. Puede ser intencional; revisar su función antes de eliminarlo.",
+                         "Severity":  "LOW",
+                         "EvidenceScope":  "filesystem",
+                         "Evidence":  "C:\\Users\\CMSoluciones\\Documents\\ARBOL\\placeholder.go",
+                         "Timestamp":  "2026-09-11T16:27:33.4002500-07:00"
+                     },
+                     {
+                         "Code":  "MITOTE-BOM-001",
+                         "Category":  "UTF8_BOM_DETECTED",
+                         "Description":  "Archivo UTF-8 con BOM detectado. Se reporta como característica de codificación, no como corrupción.",
+                         "Severity":  "LOW",
+                         "EvidenceScope":  "filesystem",
+                         "Evidence":  "C:\\Users\\CMSoluciones\\Documents\\ARBOL\\PRIVACY.md",
+                         "Timestamp":  "2026-09-11T16:27:33.4002500-07:00"
+                     },
+                     {
+                         "Code":  "MITOTE-BOM-001",
+                         "Category":  "UTF8_BOM_DETECTED",
+                         "Description":  "Archivo UTF-8 con BOM detectado. Se reporta como característica de codificación, no como corrupción.",
+                         "Severity":  "LOW",
+                         "EvidenceScope":  "filesystem",
+                         "Evidence":  "C:\\Users\\CMSoluciones\\Documents\\ARBOL\\PROVENANCE.md",
+                         "Timestamp":  "2026-09-11T16:27:33.4002500-07:00"
+                     },
+                     {
+                         "Code":  "MITOTE-BOM-001",
+                         "Category":  "UTF8_BOM_DETECTED",
+                         "Description":  "Archivo UTF-8 con BOM detectado. Se reporta como característica de codificación, no como corrupción.",
+                         "Severity":  "LOW",
+                         "EvidenceScope":  "filesystem",
+                         "Evidence":  "C:\\Users\\CMSoluciones\\Documents\\ARBOL\\RELATIONSHIPS.md",
+                         "Timestamp":  "2026-09-11T16:27:33.4012621-07:00"
+                     },
+                     {
+                         "Code":  "MITOTE-BOM-001",
+                         "Category":  "UTF8_BOM_DETECTED",
+                         "Description":  "Archivo UTF-8 con BOM detectado. Se reporta como característica de codificación, no como corrupción.",
+                         "Severity":  "LOW",
+                         "EvidenceScope":  "filesystem",
+                         "Evidence":  "C:\\Users\\CMSoluciones\\Documents\\ARBOL\\ROADMAP.md",
+                         "Timestamp":  "2026-09-11T16:27:33.4012621-07:00"
+                     },
+                     {
+                         "Code":  "MITOTE-BOM-001",
+                         "Category":  "UTF8_BOM_DETECTED",
+                         "Description":  "Archivo UTF-8 con BOM detectado. Se reporta como característica de codificación, no como corrupción.",
+                         "Severity":  "LOW",
+                         "EvidenceScope":  "filesystem",
+                         "Evidence":  "C:\\Users\\CMSoluciones\\Documents\\ARBOL\\SEARCH.md",
+                         "Timestamp":  "2026-09-11T16:27:33.4022565-07:00"
+                     },
+                     {
+                         "Code":  "MITOTE-BOM-001",
+                         "Category":  "UTF8_BOM_DETECTED",
+                         "Description":  "Archivo UTF-8 con BOM detectado. Se reporta como característica de codificación, no como corrupción.",
+                         "Severity":  "LOW",
+                         "EvidenceScope":  "filesystem",
+                         "Evidence":  "C:\\Users\\CMSoluciones\\Documents\\ARBOL\\SECURITY.md",
+                         "Timestamp":  "2026-09-11T16:27:33.4022565-07:00"
+                     },
+                     {
+                         "Code":  "MITOTE-BOM-001",
+                         "Category":  "UTF8_BOM_DETECTED",
+                         "Description":  "Archivo UTF-8 con BOM detectado. Se reporta como característica de codificación, no como corrupción.",
+                         "Severity":  "LOW",
+                         "EvidenceScope":  "filesystem",
+                         "Evidence":  "C:\\Users\\CMSoluciones\\Documents\\ARBOL\\SOURCES.md",
+                         "Timestamp":  "2026-09-11T16:27:33.4032655-07:00"
+                     },
+                     {
+                         "Code":  "MITOTE-BOM-001",
+                         "Category":  "UTF8_BOM_DETECTED",
+                         "Description":  "Archivo UTF-8 con BOM detectado. Se reporta como característica de codificación, no como corrupción.",
+                         "Severity":  "LOW",
+                         "EvidenceScope":  "filesystem",
+                         "Evidence":  "C:\\Users\\CMSoluciones\\Documents\\ARBOL\\UI.md",
+                         "Timestamp":  "2026-09-11T16:27:33.4032655-07:00"
+                     },
+                     {
+                         "Code":  "MITOTE-FILE-EMPTY-001",
+                         "Category":  "EMPTY_FILE",
+                         "Description":  "Se encontró un archivo de longitud cero. Puede ser intencional; revisar su función antes de eliminarlo.",
+                         "Severity":  "LOW",
+                         "EvidenceScope":  "filesystem",
+                         "Evidence":  "C:\\Users\\CMSoluciones\\Documents\\ARBOL\\scripts\\main.go",
+                         "Timestamp":  "2026-09-11T16:27:33.4042524-07:00"
+                     },
+                     {
+                         "Code":  "MITOTE-FILE-EMPTY-001",
+                         "Category":  "EMPTY_FILE",
+                         "Description":  "Se encontró un archivo de longitud cero. Puede ser intencional; revisar su función antes de eliminarlo.",
+                         "Severity":  "LOW",
+                         "EvidenceScope":  "filesystem",
+                         "Evidence":  "C:\\Users\\CMSoluciones\\Documents\\ARBOL\\scripts\\models.go",
+                         "Timestamp":  "2026-09-11T16:27:33.4042524-07:00"
+                     },
+                     {
+                         "Code":  "RXD-WARN-005",
+                         "Category":  "SHA256_USAGE_NOT_DETECTED",
+                         "Description":  "El scanner no encontró import ni uso directo verificable de SHA-256 en los archivos Go inspeccionados.",
+                         "Severity":  "MEDIUM",
+                         "EvidenceScope":  "Go source",
+                         "Evidence":  "",
+                         "Timestamp":  "2026-09-11T16:27:33.4157648-07:00"
+                     },
+                     {
+                         "Code":  "RXD-WARN-006",
+                         "Category":  "DICOM_REJECT_NOT_DETECTED",
+                         "Description":  "El scanner no encontró referencia explícita a A-ASSOCIATE-RJ en los archivos Go inspeccionados. Esto no demuestra por sí solo que el comportamiento protocolario sea inexistente.",
+                         "Severity":  "MEDIUM",
+                         "EvidenceScope":  "Go source",
+                         "Evidence":  "",
+                         "Timestamp":  "2026-09-11T16:27:33.4258127-07:00"
+                     },
+                     {
+                         "Code":  "RXD-EPHI-000",
+                         "Category":  "MODEL_SCOPE_NOT_DETECTED",
+                         "Description":  "No se localizaron archivos Go dentro del alcance esperado para modelos. No se evaluó de forma concluyente la presencia de campos ePHI.",
+                         "Severity":  "HIGH",
+                         "EvidenceScope":  "internal/models or internal",
+                         "Evidence":  "",
+                         "Timestamp":  "2026-09-11T16:27:33.4307899-07:00"
+                     },
+                     {
+                         "Code":  "RXD-ERR-005",
+                         "Category":  "GO_BUILD_FAIL",
+                         "Description":  "go build ./... no completó correctamente. Revisar la salida real de la herramienta; este hallazgo no se clasifica automáticamente como error de sintaxis.",
+                         "Severity":  "HIGH",
+                         "EvidenceScope":  "go workspace",
+                         "Evidence":  "go.exe : placeholder.go:1:1: expected \u0027package\u0027, found \u0027EOF\u0027\r\nEn línea: 136 Carácter: 19\r\n+         $output = \u0026 go @Arguments 2\u003e\u00261\r\n+                   ~~~~~~~~~~~~~~~~~~~~\r\n    + CategoryInfo          : NotSpecified: (placeholder.go:...e\u0027, found \u0027EOF\u0027:String) [], RemoteException\r\n    + FullyQualifiedErrorId : NativeCommandError\r\n \r\nscripts\\main.go:1:1: expected \u0027package\u0027, found \u0027EOF\u0027",
+                         "Timestamp":  "2026-09-11T16:27:33.5644429-07:00"
+                     },
+                     {
+                         "Code":  "RXD-ERR-007",
+                         "Category":  "GO_TEST_FAIL",
+                         "Description":  "go test ./... -count=1 no completó correctamente. Revisar la salida real de la herramienta; este hallazgo no se clasifica automáticamente como error de sintaxis.",
+                         "Severity":  "HIGH",
+                         "EvidenceScope":  "go workspace",
+                         "Evidence":  "FAIL\tarbol-by-klik [setup failed]\r\nFAIL\tarbol-by-klik/scripts [setup failed]\r\ngo.exe : # arbol-by-klik\r\nEn línea: 136 Carácter: 19\r\n+         $output = \u0026 go @Arguments 2\u003e\u00261\r\n+                   ~~~~~~~~~~~~~~~~~~~~\r\n    + CategoryInfo          : NotSpecified: (# arbol-by-klik:String) [], RemoteException\r\n    + FullyQualifiedErrorId : NativeCommandError\r\n \r\nplaceholder.go:1:1: expected \u0027package\u0027, found \u0027EOF\u0027\r\n# arbol-by-klik/scripts\r\nscripts\\main.go:1:1: expected \u0027package\u0027, found \u0027EOF\u0027\r\nFAIL",
+                         "Timestamp":  "2026-09-11T16:27:33.7055423-07:00"
+                     },
+                     {
+                         "Code":  "RXD-ERR-006",
+                         "Category":  "GO_VET_FAIL",
+                         "Description":  "go vet ./... no completó correctamente. Revisar la salida real de la herramienta; este hallazgo no se clasifica automáticamente como error de sintaxis.",
+                         "Severity":  "HIGH",
+                         "EvidenceScope":  "go workspace",
+                         "Evidence":  "go.exe : placeholder.go:1:1: expected \u0027package\u0027, found \u0027EOF\u0027\r\nEn línea: 136 Carácter: 19\r\n+         $output = \u0026 go @Arguments 2\u003e\u00261\r\n+                   ~~~~~~~~~~~~~~~~~~~~\r\n    + CategoryInfo          : NotSpecified: (placeholder.go:...e\u0027, found \u0027EOF\u0027:String) [], RemoteException\r\n    + FullyQualifiedErrorId : NativeCommandError\r\n \r\nscripts\\main.go:1:1: expected \u0027package\u0027, found \u0027EOF\u0027",
+                         "Timestamp":  "2026-09-11T16:27:33.8792990-07:00"
+                     }
+                 ]
+}

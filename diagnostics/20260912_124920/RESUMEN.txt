@@ -1,0 +1,31 @@
+﻿ÁRBOL by KLIK
+RELEASE VERIFICATION
+==============================================
+
+Fecha:
+09/12/2026 12:50:05
+
+Proyecto:
+C:\Users\CMSoluciones\Documents\ARBOL
+
+Estado:
+PASS
+
+Aplicación esperada:
+C:\Users\CMSoluciones\Documents\ARBOL\build\bin\ARBOL-by-KLIK.exe
+
+Instalador esperado:
+C:\Users\CMSoluciones\Documents\ARBOL\installer\arbol_by_klik_installer.exe
+
+Instalación temporal:
+C:\Users\CMSoluciones\AppData\Local\ARBOL_BY_KLIK_TEST
+
+Diagnósticos:
+C:\Users\CMSoluciones\Documents\ARBOL\diagnostics\20260912_124920
+
+Seguridad:
+Kaspersky no modificado.
+Windows Defender no modificado.
+Firewall no modificado.
+
+==============================================

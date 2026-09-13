@@ -1,0 +1,37 @@
+{
+  "name": "arbol-by-klik",
+  "version": "1.0.0",
+  "description": "Sistema local-first de búsquedas y armado de árbol genealógico",
+  "type": "module",
+  "main": "dist/database/initializer.js",
+  "scripts": {
+    "build": "powershell -NoProfile -ExecutionPolicy Bypass -File scripts/with_node_lts.ps1 tsc",
+    "start": "powershell -NoProfile -ExecutionPolicy Bypass -File scripts/with_node_lts.ps1 node dist/database/initializer.js",
+    "dev": "powershell -NoProfile -ExecutionPolicy Bypass -File scripts/with_node_lts.ps1 tsx src/database/initializer.ts",
+    "audit": "powershell -File scripts/deep_audit.ps1",
+    "audit:places": "powershell -File scripts/detect_locations.ps1",
+    "relocate:places": "powershell -File scripts/relocate_files.ps1",
+    "forensic": "powershell -File forensic_audit.ps1",
+    "forensic:mock": "powershell -File scripts/generate_test_blobs.ps1",
+    "test": "powershell -NoProfile -ExecutionPolicy Bypass -File scripts/with_node_lts.ps1 tsx tests/database.test.ts",
+    "build:installer": "iscc installer.iss",
+    "dev:full": "powershell -NoProfile -ExecutionPolicy Bypass -Command \"./setup_project.ps1; ./build.ps1; ./scripts/with_node_lts.ps1 tsx src/database/initializer.ts\""
+  },
+  "keywords": [
+    "genealogy",
+    "local-first",
+    "sqlite",
+    "klik"
+  ],
+  "author": "KLIK",
+  "license": "MIT",
+  "dependencies": {
+    "better-sqlite3": "^11.3.0"
+  },
+  "devDependencies": {
+    "@types/better-sqlite3": "^9.6.0",
+    "@types/node": "^22.10.0",
+    "tsx": "^4.19.2",
+    "typescript": "^5.6.3"
+  }
+}

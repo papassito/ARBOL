@@ -1,0 +1,5 @@
+﻿ÁRBOL by KLIK - RELEASE DIAGNOSTIC
+
+[2026-09-12 12:33:18.217] Inicio del proceso.
+[2026-09-12 12:33:18.219] ProjectRoot=C:\Users\CMSoluciones\Documents\ARBOL
+[2026-09-12 12:33:18.235] Ejecutando build.ps1.

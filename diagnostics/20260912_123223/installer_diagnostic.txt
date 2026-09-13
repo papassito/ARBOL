@@ -1,0 +1,10 @@
+﻿ÁRBOL by KLIK - RELEASE DIAGNOSTIC
+
+[2026-09-12 12:32:23.384] Inicio del proceso.
+[2026-09-12 12:32:23.386] ProjectRoot=C:\Users\CMSoluciones\Documents\ARBOL
+[2026-09-12 12:32:23.393] Ejecutando build.ps1.
+[2026-09-12 12:32:29.162] RELEASE=FAIL
+[2026-09-12 12:32:29.165] ERROR=build.ps1 terminó, pero no generó ARBOL-by-KLIK.exe en: C:\Users\CMSoluciones\Documents\ARBOL\build\bin\ARBOL-by-KLIK.exe
+[2026-09-12 12:32:29.175] LINE=477
+[2026-09-12 12:32:29.176] COMMAND=        throw "build.ps1 terminó, pero no generó ARBOL-by-KLIK.exe en: $DesktopExePath"
+

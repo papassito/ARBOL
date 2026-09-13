@@ -1,0 +1,19 @@
+{
+  "name": "ARBOL",
+  "version": "1.0.0",
+  "author": {
+    "name": "KLIK",
+    "email": "info@klik.pro"
+  },
+  "assetdir": ".",
+  "frontend:install": "",
+  "frontend:build": "",
+  "frontend:dev:watcher": "",
+  "frontend:dev:serverUrl": "",
+  "wailsjsdir": "./frontend/wailsjs",
+  "outputfilename": "ARBOL-by-KLIK.exe",
+  "windows": {
+    "WebviewIsElevated": false,
+    "DisableWindowIcon": false
+  }
+}
