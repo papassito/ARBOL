@@ -1,0 +1,31 @@
+﻿ÁRBOL by KLIK
+RELEASE VERIFICATION
+==============================================
+
+Fecha:
+09/13/2026 11:59:50
+
+Proyecto:
+Y:\Documentos\GitHub\ARBOL
+
+Estado:
+FAIL
+
+Aplicación esperada:
+Y:\Documentos\GitHub\ARBOL\build\bin\ARBOL-by-KLIK.exe
+
+Instalador esperado:
+Y:\Documentos\GitHub\ARBOL\installer\arbol_by_klik_installer.exe
+
+Instalación temporal:
+C:\Users\Radio 2027\AppData\Local\ARBOL_BY_KLIK_TEST
+
+Diagnósticos:
+Y:\Documentos\GitHub\ARBOL\diagnostics\20260913_115950
+
+Seguridad:
+Kaspersky no modificado.
+Windows Defender no modificado.
+Firewall no modificado.
+
+==============================================
